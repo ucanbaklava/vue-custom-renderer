@@ -6,6 +6,11 @@ Vue renderer can target to any target platform, not just DOM. This is an example
 
 This custom renderer creates a ZPL string with the help of jszpl library. It is just a how-to not a full implementation.
 
+To run the project:
+```sh
+npx ts-node ./src/index.ts
+```
+
 ```js
   const App = defineComponent({
     render: compile(`
